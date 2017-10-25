@@ -7,5 +7,7 @@ module.exports = {
     loginRedirectURL: "/surveys",
     port: process.env.PORT,
     stripeKey: process.env.STRIPE_KEY,
-    stripeSecret: process.env.STRIPE_SECRET
+    stripeSecret: process.env.STRIPE_SECRET,
+    sendGridKey: process.env.SENDGRID_KEY,
+    sendGridRedirect: process.env.SENDGRID_REDIRECT
 };
